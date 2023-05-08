@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,900;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #D6E1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 695px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textside{
+    text-align: center;
+}
+h1{
+    color: #1F2E55;
+    font-size: 28px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 45px;
+    margin-bottom: 17px;
+}
+h3{
+    color: #717FA6;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 25px;
+}
+h5{
+    color: #1F2E55;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.text{  
+    color:#717FA6;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 48px;
+    margin-right: 48px;
+    line-height: 26px;
+}
+.textside2{
+    margin-top: 20px;
+    height: 98px;
+    width: 355px;
+    border-radius: 11px;
+    background-color: #F7F9FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    margin-left: 24px;
+}
+.annualplan{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.price{
+    color:#717FA6;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.change{
+    color: #382AE1;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    margin-left: 68px;
+    text-decoration: underline;
+}
+.btn{
+    background-color: #382AE1;
+    height: 50px;
+    width: 354px;
+    border-radius: 11px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    margin-top: 47px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
